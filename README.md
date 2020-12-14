@@ -1,13 +1,5 @@
 ```
 As a User
-So that i can visit my favourite websites
+So that I can visit my favourite website
 I would like to see a list of bookmarks
 ```
-
-### Noun
-bookmarks, website
-
-### Verb
-visit, see
-
-[![Image of Domain Model](https://imgur.com/HnF3VPj)](https://imgur.com/HnF3VPj)
