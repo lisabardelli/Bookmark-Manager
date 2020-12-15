@@ -23,8 +23,12 @@
       "/Users/chriswhitehouse/Projects/bookmark_manager/lib/bookmark.rb": {
         "lines": [
           1,
+          null,
+          1,
           1,
           2,
+          2,
+          8,
           null,
           null
         ]
@@ -41,6 +45,7 @@
       },
       "/Users/chriswhitehouse/Projects/bookmark_manager/spec/features/view_bookmarks_spec.rb": {
         "lines": [
+          1,
           1,
           1,
           1,
@@ -65,6 +70,6 @@
         ]
       }
     },
-    "timestamp": 1607964497
+    "timestamp": 1608047151
   }
 }
