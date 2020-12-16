@@ -1,8 +1,6 @@
 <ul>
   <% @bookmarks.each do |bookmark| %>
-    <% bookmark.each do |title, url| %>
-    <li><%= title %></li>
-    <% end %>
+    <li><%= bookmark.title %></li>
   <% end %>
 </ul>
 <form action='/'>
