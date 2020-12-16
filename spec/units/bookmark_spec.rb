@@ -3,8 +3,6 @@ require 'database_helpers'
 describe Bookmark do
 
   describe '.all' do
-    let(:array) { [{"Makers" => "http://www.makersacademy.com"}, {"DAS" => "http://www.destroyallsoftware.com"}, {"Google" => "http://www.google.com"}] }
-
     it "returns a list of all saved bookmarks" do
       #Add the test data
       bookmark = Bookmark.create('Makers Academy', 'http://www.makersacademy.com')

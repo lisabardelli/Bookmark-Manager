@@ -72,7 +72,7 @@
           null
         ]
       },
-      "/Users/chriswhitehouse/Projects/bookmark_manager/spec/features/creating_bookmark_spec.rb": {
+      "/Users/chriswhitehouse/Projects/bookmark_manager/spec/features/creating_bookmarks_spec.rb": {
         "lines": [
           1,
           1,
@@ -130,8 +130,6 @@
           1,
           null,
           1,
-          null,
-          1,
           1,
           1,
           null,
@@ -173,6 +171,6 @@
         ]
       }
     },
-    "timestamp": 1608151379
+    "timestamp": 1608152542
   }
 }
