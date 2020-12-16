@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/chriswhitehouse/Projects/bookmark_manager/app.rb": {
+      "/Users/aj/Projects/week4/Wed/bookmark_manager/app.rb": {
         "lines": [
           1,
           null,
@@ -31,7 +31,7 @@
           null
         ]
       },
-      "/Users/chriswhitehouse/Projects/bookmark_manager/lib/bookmark.rb": {
+      "/Users/aj/Projects/week4/Wed/bookmark_manager/lib/bookmark.rb": {
         "lines": [
           1,
           null,
@@ -40,12 +40,13 @@
           4,
           null,
           4,
-          12,
+          20,
           null,
           null,
           1,
           8,
           null,
+          8,
           8,
           null,
           null,
@@ -61,7 +62,7 @@
           null
         ]
       },
-      "/Users/chriswhitehouse/Projects/bookmark_manager/spec/features/add_bookmark_spec.rb": {
+      "/Users/aj/Projects/week4/Wed/bookmark_manager/spec/features/add_bookmark_spec.rb": {
         "lines": [
           1,
           1,
@@ -71,6 +72,7 @@
           1,
           null,
           null,
+          1,
           1,
           1,
           1,
@@ -81,7 +83,7 @@
           null
         ]
       },
-      "/Users/chriswhitehouse/Projects/bookmark_manager/spec/features/setup_spec.rb": {
+      "/Users/aj/Projects/week4/Wed/bookmark_manager/spec/features/setup_spec.rb": {
         "lines": [
           1,
           1,
@@ -91,7 +93,7 @@
           null
         ]
       },
-      "/Users/chriswhitehouse/Projects/bookmark_manager/spec/features/viewing_bookmarks_spec.rb": {
+      "/Users/aj/Projects/week4/Wed/bookmark_manager/spec/features/viewing_bookmarks_spec.rb": {
         "lines": [
           1,
           1,
@@ -108,7 +110,7 @@
           null
         ]
       },
-      "/Users/chriswhitehouse/Projects/bookmark_manager/spec/units/bookmark_spec.rb": {
+      "/Users/aj/Projects/week4/Wed/bookmark_manager/spec/units/bookmark_spec.rb": {
         "lines": [
           1,
           null,
@@ -122,8 +124,8 @@
           1,
           null,
           1,
-          1,
-          1,
+          0,
+          0,
           null,
           null,
           null,
@@ -140,6 +142,6 @@
         ]
       }
     },
-    "timestamp": 1608134295
+    "timestamp": 1608135604
   }
 }

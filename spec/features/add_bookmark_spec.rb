@@ -10,6 +10,7 @@ feature 'add bookmark' do
     visit '/'
     click_button('Add')
     fill_in('add_url', with: 'http://www.bbc.co.uk')
+    fill_in('add_title', with: 'BBC')
     click_button('Submit')
     expect(page).to have_content('http://www.bbc.co.uk')
   end

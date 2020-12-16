@@ -1,13 +1,13 @@
 feature 'viewing bookmarks' do
   scenario 'A user can see bookmarks' do
-    Bookmark.create('http://www.makersacademy.com')
-    Bookmark.create('http://www.destroyallsoftware.com')
-    Bookmark.create('http://www.google.com')
+    Bookmark.create('Makers', 'http://www.makersacademy.com')
+    Bookmark.create('DAS', 'http://www.destroyallsoftware.com')
+    Bookmark.create('Google', 'http://www.google.com')
 
     visit('/bookmarks')
 
-    expect(page).to have_content "http://www.makersacademy.com"
-    expect(page).to have_content "http://www.destroyallsoftware.com"
-    expect(page).to have_content "http://www.google.com"
+    expect(page).to have_content "Makers"
+    expect(page).to have_content "DAS"
+    expect(page).to have_content "Google"
   end
 end

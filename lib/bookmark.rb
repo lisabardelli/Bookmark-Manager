@@ -5,13 +5,13 @@ class Bookmark
     create_db_connection
 
     result = @connection.exec "SELECT * FROM bookmarks"
-    result.map { |bookmark| bookmark['url'] }
+    result.map { |bookmark| {bookmark['title'] => bookmark['url']} }
   end
 
-  def self.create(url)
+  def self.create(title, url)
     create_db_connection
 
-    result = @connection.exec "INSERT INTO bookmarks (url) VALUES ('#{url}')"
+    result = @connection.exec "INSERT INTO bookmarks (url, title) VALUES ('#{url}', '#{title}')"
   end
 
   private
