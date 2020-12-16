@@ -4,27 +4,19 @@ As a User
 So that I can keep track of my bookmarks
 I want to be able to see a list of bookmarks
 ```
-```
-Given: that I have previously bookmarked sites
-When: I want to view historic bookmarks
-Then: the website should return a list of bookmarks
-```
 
 ```
 As a user
 So that I can record a bookmark for later use
 I want to be able to add a bookmark to my list of bookmarks
 ```
-```
-Given: that I have found a website I would like to save the url for
-When: browsing the internet
-Then: I would like to be able to save the url for future reference
-```
 
 ### Domain Model
 User Story 1 Diagram:
 
 ![US1 Domain Diagram](https://github.com/chriswhitehouse/bookmark_manager/blob/main/diagrams/user_story_1_diagram.svg)
+
+![US2 Domain Diagram](https://github.com/chriswhitehouse/bookmark_manager/blob/main/diagrams/user_story_2_diagram.svg)
 
 * Objects: user, bookmark, bookmark(list)
 
