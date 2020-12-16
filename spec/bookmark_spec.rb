@@ -10,11 +10,11 @@ describe Bookmark do
 
     end
 
-    describe "#crate" do
+    describe "#create" do
       it "adds a bookmark" do
         connection = PG.connect(dbname: 'bookmark_manager_test')
-        described_class.create(url: "www.bbc.com")
-        expect(described_class.all).to include("www.bbc.com")
+        described_class.create(url: "www.bbc.com", title: "THE BBC")
+        expect(described_class.all).to include("THE BBC")
       end
     end
   end

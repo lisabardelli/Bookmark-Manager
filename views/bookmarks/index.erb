@@ -7,7 +7,7 @@
       <h1>Bookmark Manager</h1>
       <ul>
         <% @bookmarks.each do |bookmark| %>
-          <li><%= bookmark %></li>
+          <li><a href="<%= @url %>"><%= @title %></a></li>
         <% end %>
     </body>
 </html>

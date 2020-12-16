@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns='http://www.w3.org/1999/xhtml'>
   <head>
-    <title>Code coverage for Bookmark-manager</title>
+    <title>Code coverage for Bookmark manager 1</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <script src='./assets/0.12.3/application.js' type='text/javascript'></script>
     <link href='./assets/0.12.3/application.css' media='screen, projection, print' rel='stylesheet' type='text/css' />
@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2020-12-16T15:06:57+00:00">2020-12-16T15:06:57+00:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2020-12-16T16:08:20+00:00">2020-12-16T16:08:20+00:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -43,8 +43,8 @@
   </div>
 
   <div class="t-line-summary">
-    <b>35</b> relevant lines,
-    <span class="green"><b>35</b> lines covered</span> and
+    <b>36</b> relevant lines,
+    <span class="green"><b>36</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
   100.0%
@@ -71,7 +71,7 @@
       <tbody>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#9dbf1eee9ff3c9e777f85097bbaa600bcd1cc266" class="src_link" title="spec/bookmark_spec.rb">spec/bookmark_spec.rb</a></td>
+            <td class="strong t-file__name"><a href="#17e5c5710e34b877db6b67383df7504a518ca177" class="src_link" title="spec/bookmark_spec.rb">spec/bookmark_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">21</td>
             <td class="cell--number">13</td>
@@ -82,18 +82,18 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#3a92caee9982a333b36ffb30b8f10b0974635bea" class="src_link" title="spec/features/add_bookmarks_spec.rb">spec/features/add_bookmarks_spec.rb</a></td>
+            <td class="strong t-file__name"><a href="#5a99fa6bfd5d8fdaaad4edc604c0920859049064" class="src_link" title="spec/features/add_bookmarks_spec.rb">spec/features/add_bookmarks_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">13</td>
-            <td class="cell--number">8</td>
-            <td class="cell--number">8</td>
+            <td class="cell--number">14</td>
+            <td class="cell--number">9</td>
+            <td class="cell--number">9</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#beae637e10fb90cb3435add977022912fd37d45f" class="src_link" title="spec/features/viewing_bookmark_spec.rb">spec/features/viewing_bookmark_spec.rb</a></td>
+            <td class="strong t-file__name"><a href="#4af9488561c678ea204d8c6849725b380d8c1590" class="src_link" title="spec/features/viewing_bookmark_spec.rb">spec/features/viewing_bookmark_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">22</td>
             <td class="cell--number">14</td>
@@ -120,7 +120,7 @@
 
       <div class="source_files">
       
-        <div class="source_table" id="9dbf1eee9ff3c9e777f85097bbaa600bcd1cc266">
+        <div class="source_table" id="17e5c5710e34b877db6b67383df7504a518ca177">
   <div class="header">
     <h3>spec/bookmark_spec.rb</h3>
     <h4>
@@ -285,7 +285,7 @@
 
             
 
-            <code class="ruby">    describe &quot;#crate&quot; do</code>
+            <code class="ruby">    describe &quot;#create&quot; do</code>
           </li>
         </div>
       
@@ -318,7 +318,7 @@
 
             
 
-            <code class="ruby">        described_class.create(url: &quot;www.bbc.com&quot;)</code>
+            <code class="ruby">        described_class.create(url: &quot;www.bbc.com&quot;, title: &quot;THE BBC&quot;)</code>
           </li>
         </div>
       
@@ -329,7 +329,7 @@
 
             
 
-            <code class="ruby">        expect(described_class.all).to include(&quot;www.bbc.com&quot;)</code>
+            <code class="ruby">        expect(described_class.all).to include(&quot;THE BBC&quot;)</code>
           </li>
         </div>
       
@@ -382,7 +382,7 @@
 </div>
 
       
-        <div class="source_table" id="3a92caee9982a333b36ffb30b8f10b0974635bea">
+        <div class="source_table" id="5a99fa6bfd5d8fdaaad4edc604c0920859049064">
   <div class="header">
     <h3>spec/features/add_bookmarks_spec.rb</h3>
     <h4>
@@ -396,8 +396,8 @@
     
 
     <div class="t-line-summary">
-      <b>8</b> relevant lines.
-      <span class="green"><b>8</b> lines covered</span> and
+      <b>9</b> relevant lines.
+      <span class="green"><b>9</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -514,7 +514,7 @@
 
             
 
-            <code class="ruby">    expect(page).to have_field(&quot;url&quot;)</code>
+            <code class="ruby">    expect(page).to have_field(&quot;title&quot;)</code>
           </li>
         </div>
       
@@ -525,18 +525,18 @@
 
             
 
-            <code class="ruby">    expect(page).to have_button(&quot;Submit&quot;)</code>
+            <code class="ruby">    expect(page).to have_field(&quot;url&quot;)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="12">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="12">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">end</code>
+            
+
+            <code class="ruby">    expect(page).to have_button(&quot;Submit&quot;)</code>
           </li>
         </div>
       
@@ -551,12 +551,23 @@
           </li>
         </div>
       
+        <div>
+          <li class="never" data-hits="" data-linenumber="14">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
     </ol>
   </pre>
 </div>
 
       
-        <div class="source_table" id="beae637e10fb90cb3435add977022912fd37d45f">
+        <div class="source_table" id="4af9488561c678ea204d8c6849725b380d8c1590">
   <div class="header">
     <h3>spec/features/viewing_bookmark_spec.rb</h3>
     <h4>
