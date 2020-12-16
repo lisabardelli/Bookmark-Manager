@@ -16,6 +16,8 @@ User Story 1 Diagram:
 
 ![US1 Domain Diagram](https://github.com/chriswhitehouse/bookmark_manager/blob/main/diagrams/user_story_1_diagram.svg)
 
+User Story 2 Diagram:
+
 ![US2 Domain Diagram](https://github.com/chriswhitehouse/bookmark_manager/blob/main/diagrams/user_story_2_diagram.svg)
 
 * Objects: user, bookmark, bookmark(list)
