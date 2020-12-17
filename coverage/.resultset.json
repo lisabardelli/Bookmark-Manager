@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/luke/Makers/week_4/bookmark_manager_1/spec/bookmark_spec.rb": {
+      "/Users/lisa/Desktop/Projects/Week4/Afternoon_challenge/Bookmark-Manager/spec/bookmark_spec.rb": {
         "lines": [
           1,
           null,
@@ -19,14 +19,14 @@
           1,
           1,
           1,
-          1,
+          0,
           null,
           null,
           null,
           null
         ]
       },
-      "/home/luke/Makers/week_4/bookmark_manager_1/spec/features/add_bookmarks_spec.rb": {
+      "/Users/lisa/Desktop/Projects/Week4/Afternoon_challenge/Bookmark-Manager/spec/features/add_bookmarks_spec.rb": {
         "lines": [
           null,
           1,
@@ -44,7 +44,7 @@
           null
         ]
       },
-      "/home/luke/Makers/week_4/bookmark_manager_1/spec/features/viewing_bookmark_spec.rb": {
+      "/Users/lisa/Desktop/Projects/Week4/Afternoon_challenge/Bookmark-Manager/spec/features/viewing_bookmark_spec.rb": {
         "lines": [
           1,
           null,
@@ -64,13 +64,13 @@
           1,
           null,
           1,
-          1,
-          1,
+          0,
+          0,
           null,
           null
         ]
       }
     },
-    "timestamp": 1608134900
+    "timestamp": 1608138617
   }
 }
