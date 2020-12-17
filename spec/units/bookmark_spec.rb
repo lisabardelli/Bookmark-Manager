@@ -4,7 +4,7 @@ describe Bookmark do
 
   describe '.all' do
     it "returns a list of all saved bookmarks" do
-      #Add the test data
+      # Add the test data
       bookmark = Bookmark.create('Makers Academy', 'http://www.makersacademy.com')
       Bookmark.create('DAS', 'http://www.destroyallsoftware.com')
       Bookmark.create('Google', 'http://www.google.com')
@@ -32,4 +32,16 @@ describe Bookmark do
     end
   end
 
+  describe "#.delete" do
+    it "should delete a bookmark from the list" do
+      bookmark = Bookmark.create('first_test', "http://www.first_test.com")
+      Bookmark.create('second_test', "http://www.second_test.com")
+      # persisted_data = persisted_data(id: bookmark.id)
+
+      Bookmark.delete('second_test', "http://www.second_test.com")
+      bookmarks = Bookmark.all
+      expect(bookmarks.length).to eq(1)
+      expect(bookmarks.last.title).not_to eq('second_test')
+    end
+  end
 end
