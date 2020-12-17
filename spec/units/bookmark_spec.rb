@@ -32,15 +32,15 @@ describe Bookmark do
     end
   end
 
-  describe "#.delete" do
+  describe ".delete" do
     it "should delete a bookmark from the list" do
       bookmark = Bookmark.create('first_test', "http://www.first_test.com")
-      Bookmark.create('second_test', "http://www.second_test.com")
+
       # persisted_data = persisted_data(id: bookmark.id)
-      Bookmark.delete('second_test', "http://www.second_test.com")
-      bookmarks = Bookmark.all
-      expect(bookmarks.length).to eq(1)
-      expect(bookmarks.last.title).not_to eq('second_test')
+      Bookmark.delete(id: bookmark.id)
+
+      expect(Bookmark.all.length).to eq(0)
+
     end
   end
 end
