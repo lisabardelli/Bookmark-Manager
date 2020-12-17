@@ -1,5 +1,6 @@
 <h1>Delete Your Bookmark!</h1>
-<form action='/bookmarks' method='delete'>
+<form action='/bookmarks' method='post'>
+  <input type='hidden' name='_method' value='DELETE'/>
   Delete your url and title:
   <input type='text' name='title' placeholder="Title">
   <input type='text' name='url'placeholder='URL'>

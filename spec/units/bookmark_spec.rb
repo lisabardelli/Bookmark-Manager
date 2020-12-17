@@ -37,7 +37,6 @@ describe Bookmark do
       bookmark = Bookmark.create('first_test', "http://www.first_test.com")
       Bookmark.create('second_test', "http://www.second_test.com")
       # persisted_data = persisted_data(id: bookmark.id)
-
       Bookmark.delete('second_test', "http://www.second_test.com")
       bookmarks = Bookmark.all
       expect(bookmarks.length).to eq(1)

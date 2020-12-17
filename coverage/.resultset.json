@@ -1,11 +1,16 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/lisa/Desktop/Projects/Week4/Afternoon_challenge/bookmark_manager/app.rb": {
+      "/Users/chriswhitehouse/Projects/bookmark_manager/app.rb": {
         "lines": [
           1,
           null,
+          null,
+          null,
           1,
+          null,
+          1,
+          null,
           1,
           4,
           null,
@@ -21,9 +26,8 @@
           null,
           null,
           1,
-          null,
-          0,
-          0,
+          1,
+          1,
           null,
           null,
           1,
@@ -41,7 +45,7 @@
           null
         ]
       },
-      "/Users/lisa/Desktop/Projects/Week4/Afternoon_challenge/bookmark_manager/lib/bookmark.rb": {
+      "/Users/chriswhitehouse/Projects/bookmark_manager/lib/bookmark.rb": {
         "lines": [
           1,
           null,
@@ -49,9 +53,9 @@
           1,
           null,
           1,
-          22,
-          22,
-          22,
+          21,
+          21,
+          21,
           null,
           null,
           1,
@@ -59,7 +63,7 @@
           null,
           5,
           5,
-          10,
+          9,
           null,
           null,
           null,
@@ -71,16 +75,17 @@
           null,
           null,
           1,
-          1,
-          1,
+          2,
+          null,
+          2,
           null,
           null,
           null,
           1,
           null,
           1,
-          18,
-          18,
+          19,
+          19,
           null,
           0,
           null,
@@ -88,7 +93,7 @@
           null
         ]
       },
-      "/Users/lisa/Desktop/Projects/Week4/Afternoon_challenge/bookmark_manager/spec/features/creating_bookmarks_spec.rb": {
+      "/Users/chriswhitehouse/Projects/bookmark_manager/spec/features/creating_bookmarks_spec.rb": {
         "lines": [
           1,
           1,
@@ -109,8 +114,9 @@
           null
         ]
       },
-      "/Users/lisa/Desktop/Projects/Week4/Afternoon_challenge/bookmark_manager/spec/features/deleting_bookmark_spec.rb": {
+      "/Users/chriswhitehouse/Projects/bookmark_manager/spec/features/deleting_bookmark_spec.rb": {
         "lines": [
+          1,
           1,
           1,
           1,
@@ -126,7 +132,7 @@
           null
         ]
       },
-      "/Users/lisa/Desktop/Projects/Week4/Afternoon_challenge/bookmark_manager/spec/features/setup_spec.rb": {
+      "/Users/chriswhitehouse/Projects/bookmark_manager/spec/features/setup_spec.rb": {
         "lines": [
           1,
           1,
@@ -136,7 +142,7 @@
           null
         ]
       },
-      "/Users/lisa/Desktop/Projects/Week4/Afternoon_challenge/bookmark_manager/spec/features/viewing_bookmarks_spec.rb": {
+      "/Users/chriswhitehouse/Projects/bookmark_manager/spec/features/viewing_bookmarks_spec.rb": {
         "lines": [
           1,
           1,
@@ -153,7 +159,7 @@
           null
         ]
       },
-      "/Users/lisa/Desktop/Projects/Week4/Afternoon_challenge/bookmark_manager/spec/units/bookmark_spec.rb": {
+      "/Users/chriswhitehouse/Projects/bookmark_manager/spec/units/bookmark_spec.rb": {
         "lines": [
           1,
           null,
@@ -194,7 +200,6 @@
           1,
           1,
           null,
-          null,
           1,
           1,
           1,
@@ -204,7 +209,7 @@
           null
         ]
       },
-      "/Users/lisa/Desktop/Projects/Week4/Afternoon_challenge/bookmark_manager/spec/database_helpers.rb": {
+      "/Users/chriswhitehouse/Projects/bookmark_manager/spec/database_helpers.rb": {
         "lines": [
           1,
           null,
@@ -216,10 +221,6 @@
         ]
       }
     },
-<<<<<<< HEAD
-    "timestamp": 1608214335
-=======
-    "timestamp": 1608218157
->>>>>>> 4f334c05905ff2d39e668692f10b78d7f8b04e85
+    "timestamp": 1608222061
   }
 }

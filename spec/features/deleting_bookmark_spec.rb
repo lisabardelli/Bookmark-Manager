@@ -7,7 +7,8 @@ feature "deleting bookmarks" do
     fill_in('title', with: 'Test2')
     fill_in('url', with: "http://www.test2.com")
     click_button("Delete")
+    expect(page).to have_content('Test1')
     expect(page).not_to have_content('Test2')
-  end 
+  end
 
 end

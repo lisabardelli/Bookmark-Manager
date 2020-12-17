@@ -1,6 +1,11 @@
 require 'sinatra/base'
 
+
+
 class BookmarkManager < Sinatra::Base
+
+  enable :sessions, :method_override
+
   get '/' do
     erb :index
   end
@@ -16,7 +21,6 @@ class BookmarkManager < Sinatra::Base
   end
 
   delete '/bookmarks' do
-    
     Bookmark.delete(params[:title], params[:url])
     redirect'/bookmarks'
   end
@@ -29,7 +33,7 @@ class BookmarkManager < Sinatra::Base
   get '/bookmarks/delete' do
     erb :'bookmarks/delete'
   end
-  
+
 
   # start the server if ruby file executed directly
   run! if app_file == $0

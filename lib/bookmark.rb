@@ -27,9 +27,10 @@ class Bookmark
 
   def self.delete(title, url)
     create_db_connection
+    
     result = @connection.exec("DELETE FROM bookmarks WHERE title = '#{title}' AND url = '#{url}';")
 
-  end 
+  end
 
   private
 
