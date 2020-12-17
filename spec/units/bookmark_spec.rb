@@ -43,4 +43,17 @@ describe Bookmark do
 
     end
   end
+
+  describe ".find" do
+    it 'should find a bookmark in the database with the title' do
+      Bookmark.create('first_test', "http://www.first_test.com")
+
+      bookmark = Bookmark.find(title: 'first_test')
+
+      expect(bookmark).to be_a Bookmark
+      expect(bookmark.id).to eq bookmark.id
+      expect(bookmark.title).to eq 'first_test'
+      expect(bookmark.url).to eq 'http://www.first_test.com'
+    end
+  end
 end

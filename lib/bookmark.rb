@@ -32,6 +32,13 @@ class Bookmark
 
   end
 
+  def self.find(title: )
+    create_db_connection
+
+    result = @connection.exec "SELECT * FROM bookmarks WHERE title = '#{title}'"
+    Bookmark.new(id: result[0]['id'], title: result[0]['title'], url: result[0]['url'])
+  end
+
   private
 
   def self.create_db_connection

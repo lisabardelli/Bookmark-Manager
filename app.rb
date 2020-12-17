@@ -25,6 +25,11 @@ class BookmarkManager < Sinatra::Base
     redirect'/bookmarks'
   end
 
+  post '/bookmarks' do
+    @bookmarks = Bookmark.all
+    erb :'bookmarks/index'
+  end
+
   get '/bookmarks/new' do
     erb :'bookmarks/new'
   end
@@ -32,6 +37,15 @@ class BookmarkManager < Sinatra::Base
 
   get '/bookmarks/delete' do
     erb :'bookmarks/delete'
+  end
+
+  get '/bookmarks/find' do
+    erb :'bookmarks/find'
+  end
+
+  post '/bookmarks/update' do
+    @bookmark = Bookmark.find(title: params[:title])
+    erb :'bookmarks/update'
   end
 
 
