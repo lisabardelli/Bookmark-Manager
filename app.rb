@@ -1,5 +1,5 @@
 require 'sinatra/base'
-
+require_relative './database_connection_setup'
 
 
 class BookmarkManager < Sinatra::Base
@@ -48,7 +48,12 @@ class BookmarkManager < Sinatra::Base
     erb :'bookmarks/update'
   end
 
-
+  patch '/bookmarks/:id' do   
+    Bookmark.update(title: params[:title], url: params[:url], id: params[:id])
+    redirect "/bookmarks"
+  end 
   # start the server if ruby file executed directly
   run! if app_file == $0
+end
+
 end
