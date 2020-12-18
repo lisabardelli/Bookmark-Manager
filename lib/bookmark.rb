@@ -48,4 +48,5 @@ class Bookmark
       @connection = PG.connect :dbname => 'bookmark_manager'
     end
   end
+
 end
