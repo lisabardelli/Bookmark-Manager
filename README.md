@@ -52,7 +52,7 @@ rackup
 
 
 ## **Add a bookmark**
-![Add a bookmark](addresultre.png)
+![Add a bookmark](add.png)
 
 ## **See Bookmarks**
 ![See Bookmarks](result.png)
