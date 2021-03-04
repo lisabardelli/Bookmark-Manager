@@ -14,12 +14,6 @@ I want to be able to add a bookmark to my list of bookmarks
 ### Domain Model
 
 
-* Objects: user, bookmark, bookmark(list)
-
-* Properties: name, url,
-
-* Methods: see_list
-
 |Class |User|
 |-----|-----|
 |Properties| name |
@@ -44,3 +38,21 @@ I want to be able to add a bookmark to my list of bookmarks
 5. Create a test database using the psql command `CREATE DATABASE bookmark_manager_test`
 6. Repeat steps 3 and 4 for the test database.
 7. Alter the each of the tables to add a column, by running the query we have saved in '02_add_title_to_bookmarks.sql'
+
+
+### How to run
+
+```
+rackup
+
+```
+
+## **Home**
+![Home](home.png)
+
+
+## **Add a bookmark**
+![Add a bookmark](addresultre.png)
+
+## **See Bookmarks**
+![See Bookmarks](result.png)
