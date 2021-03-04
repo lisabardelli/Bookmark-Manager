@@ -1,3 +1,11 @@
+# Bookmark Manager
+
+Build a web app that stores web bookmarks in a database.
+
+
+Each day I have been pairing with a different person. The result of each pairing session has been push on a separate branch.
+
+
 ### User Stories
 ```
 As a User
